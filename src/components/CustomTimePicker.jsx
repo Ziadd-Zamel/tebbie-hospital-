@@ -103,7 +103,7 @@ export const CustomTimeField = ({
 
       {/* Expanded Time Picker */}
       {isExpanded && (
-        <div className="absolute z-50 left-0 bottom-0  mt-2 bg-white border border-gray-200 rounded-xl p-4 shadow-lg w-full">
+        <div className="absolute z-50 left-0 bottom-20  mt-2 bg-white border border-gray-200 rounded-xl p-4 shadow-lg w-full">
           <div className="flex justify-center gap-4">
             {/* Hours */}
             <div className="flex flex-col items-center">
